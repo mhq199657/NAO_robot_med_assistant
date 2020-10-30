@@ -1,0 +1,26 @@
+[ 29.10.2020 - 08:51:11 ]
+    (MSG) [2] in SMILExtract : openSMILE starting!
+[ 29.10.2020 - 08:51:11 ]
+    (MSG) [2] in SMILExtract : config file is: config/emobase_print_emotion.conf
+[ 29.10.2020 - 08:51:11 ]
+    (MSG) [2] in cComponentManager : successfully registered 73 component types.
+[ 29.10.2020 - 08:51:11 ]
+    (MSG) [2] in configManager : reading config file 'config/emobase_print_emotion.conf'
+[ 29.10.2020 - 08:51:11 ]
+    (MSG) [2] in cLibsvmLiveSink : loading LibSVM model for instance 'emodbEmotion' ...
+[ 29.10.2020 - 08:51:11 ]
+    (MSG) [2] in cComponentManager : successfully finished createInstances
+                                 (24 component instances were finalised, 1 data memories were finalised)
+[ 29.10.2020 - 08:51:11 ]
+    (MSG) [2] in cComponentManager : starting single thread processing loop
+
+ LibSVM  'emodbEmotion' result (@ time: 0.404826) :  ~~> happiness <~~
+     prob. class 'anger': 	 0.028819
+     prob. class 'boredom': 	 0.004385
+     prob. class 'disgust': 	 0.016189
+     prob. class 'fear': 	 0.436225
+     prob. class 'happiness': 	 0.492112
+     prob. class 'neutral': 	 0.015747
+     prob. class 'sadness': 	 0.006522
+[ 29.10.2020 - 08:51:11 ]
+    (MSG) [2] in cComponentManager : Processing finished! System ran for 244 ticks.
